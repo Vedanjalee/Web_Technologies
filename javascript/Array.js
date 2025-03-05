@@ -19,7 +19,7 @@
 // // addding elements to arr
 // let nums=[];
 // nums[0] = 'tea';
-// console.log(nums)
+// console.log(nums) 
 
 // nums[10] = "coffee"
 // console.log(nums) //(11)['tea' , empty*9 ,'coffe']
