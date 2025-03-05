@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal INformation</legend>
+            <label>FrontendSkill</label>
+
+            <select name = "Skills" id="">
+                <option value="Skills">Skills</option>
+            <optgroup label = "Frontend">
+                    <option value ="HTML">html</option>
+                    <option value="CSS">Css</option>
+                    <option value="JavaScript" selected>JS</option>
+            </optgroup>
+            </select>
+            <br>
+            <br>
+
+
+             
+            <label>BackendSkill</label>
+
+            <select name = "Backend" id="">
+                <option value="Backend">Skills</option>
+            <optgroup label="Database">
+                <option value="MongoDB" selected>MongoDB</option>
+                <option value="SQL">SQL</option>
+            </optgroup>
+    
+            
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Field</legend>
+           
+        <label>State</label>
+        <input type="text" list="state">
+        <datalist id="state">
+            <option value="Delhi">Delhi</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Jammu">Jammu</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Punjab">Punjab</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </datalist>
+
+
+
+        <br><br>
+        <label for="">Years of experience</label>
+        <input type = "range" id ="yoe" step="2" min="2" max="10"  name="yoe" value="4">
+        
+        
+        <br><br>
+        <label for="">Upload Resume</label>
+        <!-- <input type="file" multiple> -->
+        <input type="file" multiple accept=".pdf , .jpeg">
+
+        
+           
+        
+            <br>
+            <input type="radio" name="Work "  >Student 
+            <input type="radio" name="Work "  >Working
+            <input type="radio" name="Work "  >None
+        </fieldset>
+
+
+    </form>
+
+</body>
+</html>

@@ -7,35 +7,41 @@
 </head>
 <body>
     
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  
     <form>
-        <fieldset>
+        <fieldset style="background-color: aqua;">
             <legend>Personal info</legend>
         
+            
+        <label for="" >Company</label>
+        <input type="text" value = "uehkgh" readonly>    
+        
         <label for="user">Name</label>
-        <input type="text" id="user" name="username">
+        <input type="text" id="user" name="username" minlength="5" maxlength="50" pattern="[a-zA-Z ]{5} " required >
         <br><br>
         <label for="email">Email</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required autofocus>
         <br><br>
         <label for="pass">Password</label>
         <input type="password" id="pass" name="pass">
         <br><br>
         <label for="age">Age</label>
-        <input type="number" id="age" name="age">
+        <input type="number" id="number" name="age" min="16" max="40">
+        <br><br>
+
+
+        <label for="Phone">Phone no</label>
+        <input type="tel" pattern="[0-9] {10,}" autocomplete="off">
+        <!-- FOR GETTING NUMBER ONLY....WE SHOULD USE tel-,,,[]{}            ========if we want more thn 10 digits thn use ',' -->
+
         <br><br>
         <label for="male">Male</label>
         <input type="radio" id="male" name="gender" value="male">
 
         <label for="female">Female</label>
         <input type="radio" id="female" name="gender" value="female">
+
+       
 
         <label for="others">Others</label>
         <input type="radio" id="others" name="gender" value="others">
@@ -44,6 +50,26 @@
 
     </fieldset>
     </form>
+    <!-- ------------------- -->
+    <label>Skills:</label> 
+    <!-- Multiple....control k sth 2 select kekr submit it -->
+    <select name="userSkills" multiple> 
+    <optgroup label="Frontend"> 
+    <option value="React">React</option> 
+    <option value="Angular">Angular</option> 
+    </optgroup> 
+    <optgroup label="Database"> 
+    <option value="SQL">SQL</option> 
+    <option value="MongoDB">MongoDB</option> 
+    </optgroup> 
+    <optgroup label="Backend"> 
+    <option value="Python">Python</option> 
+    <option value="Java">Java</option> 
+    <option value="NodeJs">NodeJs</option> 
+    </optgroup> 
+    </select>
+
+    <!-- ------------------- -->
 
     <form>
          <fieldset>
@@ -56,33 +82,20 @@
         <input type="checkbox" name="skill" value = "js" >js
         <br><br>
 
-        <select name = "vechicle" id="">
-            <option value="no vechicle">NO vechicle</option>
-        
-        <optgroup label = "Cars">
-                <option value ="BMW">BMW</option>
-                <OPTION value="audi">Audi</OPTION>
-                <OPTION value="">Supra</OPTION>
-        </optgroup>
-
-        <optgroup label="bikes">
-            <option value="jawa">JAWA</option>
-            <option value="Splender">SPlender</option>
-            <option value="Shine">Shine</option>
-        </optgroup>
-
-        <optgroup label="Cycles">
-            <option value="Atlas">Atlas</option>
-            <option value="Hero">Hero</option>
-            <option value="NAcho">Nachos</option>
-        </optgroup>
          
-        
 
-        </select>
+        <button disabled>Submit</button>
+        <button >Submit</button>
+        <button>Reset</button>
 
-        <button>Submit</button>
+        <input type="submit">
+        <input type="reset">
     </fieldset>
     </form>
 </body>
 </html>
+
+<!-- Non Validagte attribuyte -->
+ <!-- Label tag and 
+    label atttribute -> with optgrp for skill Mulitple skills  -->
+    

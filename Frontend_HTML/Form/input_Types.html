@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action=""  method="get" novalidate autocomplete="off">
+        <fieldset style="background-color: blanchedalmond;">
+            <legend>Personal Information</legend>
+        <label for="">Company</label>
+        <input type="text" value="Google" readonly>
+        <br><br>
+        <label for="user">Name</label>
+        <input type="text" id="user" name="username" minlength="5" maxlength="50" pattern="[a-z]{5,}" required autofocus >
+        <br>
+        <br>
+        <label for="email" >Email</label>
+        <input type="email" id="email" name="email" required placeholder="example@gmail.com" size="30">
+        <br>
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass">
+        <br>
+        <br>
+        <label for="p.no">Ph. Number</label>
+        <input type="tel" id="p.no" name="tel" pattern="[0-9]{10,}" autocomplete="off">
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="16" max="50" step="2">
+        <br>
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="gender" value="others">
+        <label for="others">Others</label>
+        <br>
+        <br>
+    </fieldset>
+    <fieldset>
+        <legend>Other Info</legend>
+        <label for="skills">Skills</label>
+        <input type="checkbox" name="skill" value="html" checked>HTML
+        <input type="checkbox" name="skill" value="css">CSS
+        <input type="checkbox" name="skill" value="js">JS
+        <br><br>
+        <label for="">Date Of Interview</label>
+        <input type="date">
+        <br><br>
+        <label for="">Month Of Interview</label>
+        <input type="month">
+        <br><br>
+        <label for="">Date And Time</label>
+        <input type="datetime">
+        <br><br>
+        <label for="">Date And Time Local</label>
+        <input type="datetime-local">
+        <br><br>
+        <label for="">Time Of Interview</label>
+        <input type="time">
+        <br><br>
+        <label for="vehicle">Vehicle</label>
+        <select name="vehicle" id="vehicle" multiple>
+        <option value="no vehicle">Select Vehicle</option>
+        <optgroup label="Cars">
+            <option value="BMW">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="supra">Supra</option>
+        </optgroup>
+        <optgroup label="bikes">
+            <option value="jawa">Jawa</option>
+            <option value="splendor">splendor</option>
+            <option value="shine">shine</option>
+        </optgroup>
+        <optgroup label="cycles">
+            <option value="Atlas">Atlas</option>
+            <option value="Hero" selected>Hero</option>
+            <option value="Hercules">Hercules</option>
+        </optgroup>
+        </select>
+        <br><br>
+        <label for="state">Select State</label>
+        <input  list="states">
+        <datalist id="states">
+            <option value="Karnataka">Karnataka</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Jammu">Jammu</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="MP">MP</option>
+        </datalist>
+        <br><br>
+        <label for="yoe">Year Of Experience</label>
+        <input type="range" id="yoe" step="2" min="2" max="10" name="yoe" value="4">
+        <br><br>
+        <label for="">URL</label>
+        <input type="url">
+        <br><br>
+        <label for="">Upload Resume</label>
+        <input type="file" multiple 
+        accept=".pdf , .jpeg">
+        <br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Comments and Address</legend>
+     <label for="">Address</label>
+     <textarea  id="" name="address"></textarea>
+    </fieldset>
+    <br><br>
+    <button type="button">Click Me</button>
+    <input type="submit">
+    <input type="reset">
+    </form>
+</body>
+</html>
+<!-- 
+http://127.0.0.1:5501/index.html?username=Virat&email=&pass=&age=&vehicle=Audi  -->
+
+<!-- http://127.0.0.1:5501/index.html?username=&email=&pass=&tel=&age=&skill=html&vehicle=Hero&yoe=4&address= -->
