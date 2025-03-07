@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mixed Array</h1>
+    <script>
+        // let mixedArray =[120, 'hir', false, undefined , null, "vinod", "time",13]
+      
+        // let number = mixedArray.filter((ele) => {
+        //     console.log( typeof ele=== "number")
+        // })
+
+        // let string = mixedArray.filter((ele) => {
+        //     ( typeof ele=== "strings")
+        // })
+
+        // let boolean = mixedArray.filter((ele) => {
+        //    ( typeof ele=== "booleans")
+        // })
+
+        // let nulls = mixedArray.filter((ele) => {
+        //    ( typeof ele=== "null")
+        // })
+        // console.log("Numbers:", number);
+        // console.log("Strings:", strings);
+
+        // console.log("Booleans:", booleans);
+        // console.log("nulls", nulls);
+
+        // -----------ODD idx and Even valeue ------------
+        let sal = [30003, 40000, 50001, 60001, 70000, 80001];
+        let even = sal.filter((ele, idx) => {
+            return  ele%2 == 0  && idx %2 != 0;
+        })
+        console.log(even)
+        
+
+    </script>
+</body>
+</html>

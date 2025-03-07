@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Emp Salalry Task</h1>
+    <script>
+      
+      
+        let emp = ["atul", "pranav", "amar" , "kamal"];
+        let sal = [2000 , 50000, 30000, 80000];
+        
+        // RETUENS LEN OF EACH WORD IN THE ARRAY
+        // let incrementSal = emp.map(e =>  e.length );
+        // console.log(incrementSal);
+        
+
+        // Array ele === len(4)
+        
+        // let filterwords= emp.filter(e=> e.length === 4);
+        // console.log(filterwords)
+
+        // SALARY INcreament----------
+        emp.forEach((e, idx )=> {
+            if (e.length===4){
+                sal[idx] += 2000;
+            }
+        });
+        console.log(sal)
+    </script>
+</body>
+</html>
