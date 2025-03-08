@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Object Cloning</h1>
+    <script>
+        let src = {
+            age: 12,
+            wt : 68,
+            ht : 180
+        }
+
+        // let dest ={...src};
+        // src.age = 90;
+
+        // console.log("src: ", src);
+        // console.log("destination: ", dest);
+
+        // SINGLR OBJ P 2 REFERENCE 
+
+        // let dest = src;
+        // src.age = 90;
+
+        // console.log("src: ", src);
+        // console.log("destination: ", dest)
+        
+        let dest = Object.assign({}, src);
+        console.log("src: ", src);
+        console.log("dest ", dest);
+        
+    </script>
+</body>
+</html>
