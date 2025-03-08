@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Objects</h1>
+    <script>
+
+
+// USING LTERALS
+        // let person ={
+        //     nmae  :"Anjali", 
+        //     age : 22,
+        //     city: "Bhopal"
+        // };
+        // console.log(person)
+
+        // USING NEW OBJECT()
+        
+        // let car = new Object() ;
+        // car.name = "Tesla";
+        // car.speed= 50;
+        // car.year = 2033;
+
+        // console.log(car)
+
+
+        // 3.Using a Constructor Function
+// This is used for creating multiple object instances.
+
+// function Student (name, age){
+//     this.name = name; 
+//     this.age = age;
+
+// }
+// let std1 = new Student("Anjali",23);
+// let std2 = new Student("anja", 34);
+
+// console.log(std1, std2);
+
+// ADVANCED OBJECT CREATION =------------
+// Using Class Syntax(ES6)
+// A modern way of creating objects in JS 
+
+// class Employee{
+//     constructor (name, posi, sal) {
+//         this.name = name;
+//         this.posi = posi ;
+//         this.sal = sal ;
+
+//     }
+// }
+// let emp1 = new Employee("ANjlia", "developer", 70000);
+// console.log(emp1)
+
+// Method 5: Using Object.create()
+// Creates an object with a specified prototype.
+
+// let prototypePerson = {
+//     greet: function() {
+//         console.log(`Hello , my nme is ${this.name}`);
+
+//     }
+// };
+
+// let person1 = Object.create(prototypePerson);
+// person1.name= "Najali";
+// person1.greet();
+
+//  Inserting (Adding) Properties 
+// let book = {
+//     title : "js",
+//     author : "hfjk"
+// };
+// book.pages = 34;
+// book.language = "English";
+// console.log(book)
+
+// We can delete object properties using the delete keyword.------------
+
+// let user ={
+//     username : "anjallijoih",
+//     password : "secuhr",
+//     email : "anjlliayudydgy"
+// };
+// delete user.password;
+// console.log(user);
+
+// Object Methods (Functions inside Objects)-------------------------------
+// We can define functions inside objects.
+
+// let calc ={
+//     add: function(a, b){
+//         return a+b;
+//     },
+
+//     subtract: function (a, b){
+//         return a-b;
+//     }
+// };
+// console.log(calc.add(10,5));
+// console.log(calc.subtract(9,4));
+
+// Object Destructuring (Advanced Concept)-----------------------
+// Extracting properties from objects in a cleaner way.
+
+// let personInfo = { name: "Anjali", age: 25, city: "Bhopal" };
+// let {name , age} = personInfo;
+
+// console.log(name);
+// console.log(age);
+
+// Object Spread and Rest Operators =====Using Spread to Copy Objects------------
+   
+// let obj1 = {a:10, b: 20};
+// let obj2 = {...obj1, c: 30};
+// Copies obj1 properties and adds 'c'
+// console.log(obj2);
+
+// console.log(Math.PI)
+// console.log(Math.max(12,3,41,2))
+// console.log(Math.min(12,3,41,2))
+// console.log(Math.round(1.4))
+// console.log(Math.ceil(1.1))
+// console.log(Math.abs(-2.3))
+// console.log(Math.random())
+
+
+   </script>
+</body>
+</html>
