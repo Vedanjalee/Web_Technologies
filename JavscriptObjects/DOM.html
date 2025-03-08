@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM </h1>
+
+    <p id="fpara" >FirstPrograms</p>
+    <p class="do" >ClassName</p>
+    <h1 id="fheading">First heading</h1>
+
+<script>
+    let fp = document.getElementById('fpara');
+    console.log(fp)
+
+    let cls = document.getElementsByClassName('do')
+    console.log(cls)
+
+    let p = document.getElementsByTagName('p')
+    console.log(p)
+
+    console.log(document.querySelector('.do'))
+
+    // $0
+</script>
+
+</body>
+</html>
