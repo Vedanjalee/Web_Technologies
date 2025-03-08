@@ -14,14 +14,14 @@
         let sal = [2000 , 50000, 30000, 80000];
         
         // RETUENS LEN OF EACH WORD IN THE ARRAY
-        // let incrementSal = emp.map(e =>  e.length );
-        // console.log(incrementSal);
+        let incrementSal = emp.map(e =>  e.length );
+        console.log(incrementSal);
         
 
         // Array ele === len(4)
         
-        // let filterwords= emp.filter(e=> e.length === 4);
-        // console.log(filterwords)
+        let filterwords= emp.filter(e=> e.length === 4);
+        console.log(filterwords)
 
         // SALARY INcreament----------
         emp.forEach((e, idx )=> {
@@ -30,6 +30,17 @@
             }
         });
         console.log(sal)
+
+        let newarr = emp.map((el, i) =>
+        incrementSal[i].toString()[0] %2 ==0 ? "Mr. "  + emp[i]:emp[i])
+            console.log(newarr);
+
+        let arr3 = emp.map((el, i) =>
+            "AEIOUaeiou".includes(emp[i][0] ? (el*0.1) + el:el))
+            console.log(arr3)
+                
+
+        
     </script>
 </body>
 </html>
