@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Reduce Method</h1>
+<script>
+
+    // arr.reduce(calllback func, iitialvlue)
+    // reduce will accept two arguments
+    // 1. CALLBACK FUNCTION 
+    // 2. INITIAL VALUE OF ACCUMULATOR 
+    // 1. CALLBACK FUNCTION  HAVE 4 ARGS -->, 
+    let arr = [10,20,30,40];
+    let sum = 0 ;
+    let res = arr.reduce(( acc, el, i, arr) =>{
+             return acc+el;
+    },0)
+    console.log(res);t                                         
+
+
+</script>
+</body>
+</html>
