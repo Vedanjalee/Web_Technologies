@@ -1,0 +1,7 @@
+img[class]{
+    height: 300px;
+}
+
+img[alt="first"]{
+    height: 400px;
+}

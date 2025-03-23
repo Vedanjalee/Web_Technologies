@@ -1,0 +1,67 @@
+ /* h1{ */
+    /* text-align: center;
+    color: rgba(red 255, green 0, blue 0);
+    color: rgb(0,0,255);
+    color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    color: rgb(255,0,255);
+    color: rgb(0,255,255);
+    color: rgb(90,30,120);
+    color: rgba(0,0,255,0.5);
+    background-color: rgba(255, 0, 0,0.3);
+
+ a= 1 -opque 
+ 0 - transparent  */
+
+ /* background-color: hsl(120deg, 100% , 50%);
+ background-color: hsla(120deg , 100% , 50% , 0.5);
+
+ background-color: #ff0000;
+ background-color: #000;
+ background-color: #00f;
+ background-color: #0f0;
+
+}  */
+
+/* #one:hover{
+    background-color: #ff0000;
+    border: 2px solid #cc0000;
+}
+#two:hover{
+    background-color: hsl(120deg, 100% , 50%);
+    border: 2px solid #cc0000;
+}
+
+#three:hover{
+    background-color: #000;
+    border: 2px solid #cc0000;
+}
+
+#four{
+   /* background-color: rgb(90,30,120); */
+   /* background-color: rgba(255, 0, 0,0.3);
+   border: 2px solid #cc0000;
+   color:hover; */
+   /* color:rgba(255, 0, 0,0.3); */
+/* } */
+
+div{
+    height: 200px;
+    text-align: center;
+    color:transparent;
+
+}
+
+div:nth-child(1){
+    background-color: rgb(149, 54, 54);
+}
+
+div:nth-child(2){
+  background-color: rgba(0,0,0.1);
+}
+div:nth-child(3){
+    background-color:hsl(295, 100%, 50%)}
+
+div:hover{
+    color: aliceblue;
+}

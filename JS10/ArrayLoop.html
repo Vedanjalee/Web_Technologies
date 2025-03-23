@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>array Loops</h1>
+
+    <!-- // let a = prompt("Enter a word")
+
+// let vowel = "aeiou"
+
+// vowel = "aeiou"
+// count =0
+// for a in  arr : 
+//     if a in vowel: 
+//         count += 1
+//     else : 
+//         pass -->
+<script>
+
+    // forin -- returns the index 
+// let nums = [10,20,30,40]
+// for(let i in nums){
+//     console.log(i)
+// }
+
+// forof   -- returns the values 
+// let nums = [10,20,30,40]
+// for(let i of nums){
+//     console.log(i)
+// }
+
+
+// GIVE AARY JEJRE NAME STARTS WITH VOWEL ONLY
+let names = "anjali ali tanay  may  aanchall chall mahima ma"
+let arr = names.split(" ");
+console.log(arr)
+
+let arr2 = [];
+let v = "aeiouAEIOU"
+for (let name of arr){
+    // let vowel = "aeiou"
+    if(v.includes(names.charAt(0))){
+       arr2.unshift(name)
+    }
+}
+
+console.log(arr2)
+// FIND LENGTH OF LONGEST WORD
+</script>
+</body>
+</html>

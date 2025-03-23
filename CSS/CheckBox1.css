@@ -1,0 +1,8 @@
+div{
+    display: none;
+}
+
+#c:checked+div{
+    background-color: red;
+    display: block;
+}

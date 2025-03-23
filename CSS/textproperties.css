@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    color:yellow;
+    /* text-decoration: line-through; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: none; */
+    /* text-decoration-line: line-through; */
+    /* text-decoration-style: dashed ;
+    text-decoration-style: dotted;
+    text-decoration-style: double; */
+    /* text-decoration-style: wavy; */
+
+/* text shadow : x-axis y-axis blur color */
+    /* text-shadow: 10px 10px 5px  rgb(255, 61, 61); */
+
+
+    /* text-shadow: 5px 5px 2px rgb(255, 61,61),
+    8px 8px 2px rgb(80, 255, 61) ,
+    12px 12px 3px blue
+    ; */
+
+}
+
+p{
+    /* text-align: left;
+    text-align: justify;
+    text-align: right; */
+    text-indent: 50px;
+   
+    /* text-wrap: wrap;  default valeu */
+    /* text-wrap: nowrap; */
+       
+    /* text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    text-wrap: wrap;  default val */
+
+/* WORD SPACING , LETTER SPACING , LINE HEIGHT */
+
+    /* word-spacing: 20px;
+letter-spacing: 20px; */
+/* use hover to chnge */
+background-color: brown;
+line-height: 40px;
+}
+
+p:hover{
+    word-spacing: 20px;
+letter-spacing: 20px;
+}

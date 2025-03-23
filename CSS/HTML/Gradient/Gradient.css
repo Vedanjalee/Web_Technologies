@@ -1,0 +1,20 @@
+section{
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to top, blue, red, yellow);
+}
+
+/* section:nth-child(2){
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to right, blue, red, yellow);
+} */
+
+section:nth-child(2){
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to top, blue 0px,blue 100px, red 100px, red 200px, white 200px, white 300px , green 300px , green 400px);
+}
+
+
+

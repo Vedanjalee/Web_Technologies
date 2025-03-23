@@ -1,0 +1,58 @@
+section{
+    display: flex;
+}
+#Aremina{
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to top, blue 0px,blue 100px, red 100px, red 200px, white 200px, white 300px , green 300px , green 400px);
+}
+
+#Belgium{
+   height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to right, black 0px,black 100px, yellow 100px, yellow 200px, red 200px, red 250px );
+
+}
+
+#Canada{
+    height: 300px;
+    width: 300px;
+    background-image:linear-gradient(to right, red 0px, red 100px, white 100px, white 200px, red 200px, red 250px );
+    
+}
+#China{
+    height: 300px;
+    width: 300px;
+    background-image:linear-gradient(to right, red 0px, red 400px );
+
+}
+
+#Germany{
+    height: 300px;
+    width: 300px;
+    background-image:linear-gradient(to top, black 0px, black 100px, red 100px, red 200px , yellow 200px ,  yellow 300px);
+}
+
+#Itlay{
+    height: 300px;
+    width: 300px; 
+    background-image: linear-gradient(to right ,green 0px, green 100px, white 100px ,  white 200px,  red 200px , red 300px);                                                                                                                                  
+}
+
+#NetherLand{
+    height: 300px;
+    width: 300px; 
+    background-image: linear-gradient(to top , red 0px, red 100px , white 100px, white 200px, blue 200px , blue 300px);
+}
+#Poland{
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to top,red 0px, red 150px , white 150px, white 300px);
+}
+
+
+#France {
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to right, blue 0px, blue 100px, white 100px, white 200px, red 200px, red 300px);
+}

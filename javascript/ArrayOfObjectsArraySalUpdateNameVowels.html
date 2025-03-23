@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Array of objects</h1>
+    <p>INCREASE SAL IF ARRAYS NAME I SSTRT WITH VOWEL</p>
+<script>
+    let emp = [
+    {
+        name: "sunil",
+        sal : 3000
+    },
+
+    {
+        name: "anam",
+        sal : 40000
+    },
+    {
+        name: "rohit",
+        sal : 46000
+    },
+    {
+        name: "atul",
+        sal : 23000
+    }
+    ]
+
+    // let salinc = emp.map((ele, i) => {
+         
+    //     if ( ['a', 'e', 'i', 'o', 'u'].includes(ele.name.charAt(0).toLowerCase()));
+    //       return (ele.sal += 2000) 
+    // })
+    // console.log(salinc) ;
+
+
+    
+    // let salinc = emp.map((ele, i) => {
+         
+    //      if ( ['a', 'e', 'i', 'o', 'u'].includes(ele.name.charAt(0).toLowerCase()));
+    //        return {...emp, sal : ele.sal+2000}
+    //     return ele;   
+    //  })
+    //  console.log(salinc) ;
+
+    let nameLen = emp.filter((ele, i) => {
+         
+        return (ele.name.length > 4)
+           
+           
+     })
+     console.log(nameLen) ;
+ 
+
+
+     
+
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+/* #p1{
+    background-color: bisque;
+}
+
+#sec1{
+    background-color: aqua;
+} */
+
+/* #p1{
+    background-color: bisque;
+}
+
+#sec1{
+    background-color: aqua;
+}
+
+.Blue{
+    background-color: blue;
+} */
+
+/* article, aside{}  --> Grouping selector */
+
+/* *-universal selector */
+/* (.) -> class selector  */
+/* (#) -> id selector */
+
+
+/* *{
+    background-color: pink;
+} */
+
+/* SPECIFICIYY VALUE 
+
+id
+clss
+tagname - leastpriority
+
+*/
+#first{
+    background-color: red;
+}
+
+div{
+    background-color: blue;
+}
+
+div{
+    background-color: green;
+}
+
+div.demo{
+    background-color: pink;
+}
+
+#div#first.demo{
+background-color: blueviolet;
+}

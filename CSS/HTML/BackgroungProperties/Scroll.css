@@ -1,0 +1,17 @@
+section{
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/2166282428/photo/a-beautiful-and-lush-green-forest-canopy-illuminated-by-warm-sunlight-streaming-through.jpg?s=2048x2048&w=is&k=20&c=adYRQjsCkME5QNQDqqQHlYyabIlGl4mQH-nakh3db2I=');
+
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section:nth-child(2){
+    background-image: url('https://media.istockphoto.com/id/1900503626/photo/sunset-on-wild-lupines-near-mt-cook-new-zealand.webp?a=1&b=1&s=612x612&w=0&k=20&c=gB8R1a5vjKhU2xrGY0EP-CjwOX03UfFUrcLd7mfOVJQ=');
+}
+
+section:nth-child(2){
+    background-image: url('https://media.istockphoto.com/id/2153573059/photo/mountain-covered-with-a-coniferous-fir-tree-forest-scenic-landscape-from-carpathian-mountains.webp?a=1&b=1&s=612x612&w=0&k=20&c=T8LR8_7_56E8X_Q3-PONzFG-fv5BMCk8UKFkbbo1fN4=');
+}

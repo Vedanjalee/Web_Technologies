@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Array of str to upprcase</h1>
+
+    <script>
+        // 1.ALL LEETRE IN CAPITAL 
+        // const words = ["apple", "banana", "cherry"];
+        // let FirstWorduppercase = words.map(word =>{
+
+        //     let words = word.split(" ");
+        //     words[0] = words[0].toUpperCase();
+        //         return words.join(" ");
+        // });
+
+        // console.log(FirstWorduppercase);
+
+
+        // 2.  capitalize only the first letter of each string,
+        
+        const strings = ["hello world", "javascript is fun", "convert first letter"];
+        capitalizeFirstLetter= strings.map(str => str.charAt(0).toUpperCase() + str.slice(1))
+        
+        console.log(capitalizeFirstLetter);
+    </script>
+</body>
+</html>

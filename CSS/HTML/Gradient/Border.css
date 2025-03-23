@@ -1,0 +1,36 @@
+/* div{ */
+    /* height: 300px;
+    width: 400px; */
+    /* background-color: red; */
+    /* border-style: solid; */
+    /* border-width: 10px;
+    border-color:red ; */
+
+    /* border-style:dashed ;
+    border-style:dotted;
+    border-style:groove; */
+
+    /* border: 5px dashed blueviolet; */
+
+    /* border-left: 10px groove yellow;
+    border-top: 10px dashed red;
+    border-bottom: 10px solid blue;
+    border-right: double green; */
+
+    /* border: 20px groove rgb(255, 219,15);
+    background-image: url('https://media.istockphoto.com/id/2166282428/photo/a-beautiful-and-lush-green-forest-canopy-illuminated-by-warm-sunlight-streaming-through.webp?a=1&b=1&s=612x612&w=0&k=20&c=pAbM-TaCjxMefRxZBp3uQp27lwlEFFqni5yJnrzpPho='); */
+    
+
+    /* BORDER RADIUS */
+    /* border-left: 10px solid black;
+    border-radius: 40px 50px 60px 70px; */
+/* } */
+
+table{
+    border-collapse: collapse;
+    border-spacing: 30px;
+}
+
+
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Object creatin</h1>
+
+   <script>
+    
+    // ! Objects
+//todo -> Object is the programmatic representation of a real world entity
+//todo -> object is the combination of multiple key and value pairs(properties)
+//todo -> key and value pair are seperated by colon(:),
+//todo -> muliple properties are seperated by comma(,)
+
+// let marker = {
+//     color : "Black",
+//     isMarried:true,
+//     77 : "Dhoni", //todo -> only number as a key is also possible,
+//     // 7a:"Bike Rider", //todo -> not possible to start with a number
+//     // leng*h : 10, //todo-> cannot include special characters other than $ and _
+//     "leng*h" : 10,
+//     // 1marker:"hey" //todo-> can't start with a number
+//     "1marker":"hey", //todo-> if you wan't to start with a number or want to use some other special characters we must have to pass the key in double quotes("1ke%y")
+//     isMarried : false //todo-> if we have same key for more than once , it will take the updated one
+// }
+// console.log(marker)
+
+//! Accesing the properties of an object
+// we have two ways to access the property of an object
+// let person = {
+//     name:"Rohit",
+//     age:37,
+//     team:"MI"
+// }
+// console.log(person)
+// //!1. dot notation
+// console.log(person.name);
+// console.log(person.age);
+// console.log(person.team);
+
+// //!2. bracket notation
+// console.log(person["name"])
+// console.log(person["age"])
+// console.log(person["team"])
+
+//! where we should be using bracket notation
+// // console.log(marker.77)
+// console.log(marker["77"]) // wherever you have the key which is not following the rules of identifier we must use bracket notation
+// console.log(marker["leng*h"])
+
+// let uInput = prompt("Please enter the input as age , name or team")
+// console.log(uInput)
+// console.log(person.uInput) //undefined , it is trying to find the key as uInput inside the person Object
+// console.log(person[uInput]) // it will evaluate the value of the uInput Variable
+
+//!Updating / Modifying the object
+// let player = {
+//     name:"Rohit",
+//     age:37,
+//     team:"MI",
+//     true:false, // inside the object you can have keywords a the key
+//     if:"yes"
+// }
+// //! adding a property to the player object
+// player.titles = 5
+// console.log(player)
+// player["isMarried"] = true;
+// console.log(player)
+// //! updating the property
+// player.name = "mohit"
+// console.log(player)
+// player["age"] = 47;
+// console.log(player)
+
+// //! deleting the property from an object
+// delete player.name;
+// delete player["age"];
+// console.log(player)
+
+
+//! Method --> function inside an Object is known as method
+let player = {
+    name:"Rohit",
+    age:37,
+    team:"MI",
+    //! 1st way to declare a method
+    isPlaying:function(){
+        console.log("Yes still playing for india")
+    },
+    //! 2nd way to declare a method
+    isPlaying2(){
+        console.log("Playing for Mumbai Indians")
+    }
+}
+player.isPlaying()
+player.isPlaying2()
+   </script>
+</body>
+</html>

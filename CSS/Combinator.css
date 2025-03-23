@@ -1,0 +1,11 @@
+div article{
+    background-color: green;
+}
+
+/* combinator selector */
+
+/* descendent color  */
+
+section article{
+    background-color: yellow;
+}

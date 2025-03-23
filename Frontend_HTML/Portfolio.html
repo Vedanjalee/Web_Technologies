@@ -1,0 +1,242 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: auto;
+            padding: 10px;
+        }
+        form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="My Profile Picture" width="150">
+        <p>Hello! I am a web developer passionate about creating amazing user experiences.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>Portfolio Website</li>
+            <li>Food Ordering App</li>
+            <li>Calculator Web App</li>
+        </ul>
+    </section>
+    
+    <section id="skills">
+        <h2>My Skills</h2>
+        <table>
+            <tr>
+                <th>Technology</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>HTML & CSS</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+            
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    
+    <footer>
+        <marquee behavior="scroll" direction="left">Thank you for visiting my portfolio!</marquee>
+    </footer>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #333; color: white; padding: 10px 20px; text-align: center; }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { display: inline; margin: 0 15px; }
+        nav a { color: white; text-decoration: none; cursor: pointer; }
+        section { padding: 20px; }
+        .container { width: 80%; margin: auto; }
+        .skills, .certifications { display: flex; flex-wrap: wrap; }
+        .skills div, .certifications div { background: #f4f4f4; padding: 10px; margin: 5px; border-radius: 5px; }
+        footer { background: #333; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        marquee { font-size: 14px; color: yellow; }
+        .progress-bar { background: lightgray; border-radius: 5px; margin-top: 5px; }
+        .progress { background: #4caf50; height: 10px; border-radius: 5px; width: 0; transition: width 1s; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anjali's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Anjali, a passionate Front-End Developer with experience in creating user-friendly web applications.</p>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <ul>
+            <li>Food Ordering Website - Real-time cart updates and responsive UI</li>
+            <li>Bookshop Landing Page - Clean and intuitive design</li>
+            <li>Zomato Clone - JavaScript functionality for search and filtering</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+        <p><strong>Frontend Intern - Webflow</strong> (Ongoing)</p>
+        <p>Worked on responsive UI development and debugging.</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>HTML<div class="progress-bar"><div class="progress" data-progress="90%"></div></div></div>
+            <div>CSS<div class="progress-bar"><div class="progress" data-progress="85%"></div></div></div>
+            <div>JavaScript<div class="progress-bar"><div class="progress" data-progress="80%"></div></div></div>
+            <div>React.js<div class="progress-bar"><div class="progress" data-progress="70%"></div></div></div>
+            <div>MySQL<div class="progress-bar"><div class="progress" data-progress="60%"></div></div></div>
+            <div>Python<div class="progress-bar"><div class="progress" data-progress="75%"></div></div></div>
+            <div>Git & GitHub<div class="progress-bar"><div class="progress" data-progress="65%"></div></div></div>
+        </div>
+    </section>
+
+    <section id="certifications" class="container">
+        <h2>Certifications</h2>
+        <div class="certifications">
+            <div>Cybersecurity Basics - Coursera</div>
+            <div>Front-End Development - Udemy</div>
+            <div>JavaScript Advanced - CodeAcademy</div>
+        </div>
+    </section>
+
+    <section id="blog" class="container">
+        <h2>Blog</h2>
+        <p>Coming soon...</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required><br>
+            <input type="email" id="email" placeholder="Your Email" required><br>
+            <textarea id="message" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+        <p id="form-message" style="color: green; display: none;">Message Sent Successfully!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Anjali | All Rights Reserved</p>
+        <marquee>Stay connected for updates!</marquee>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('.nav-link').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Skills progress animation
+        window.addEventListener('load', () => {
+            document.querySelectorAll('.progress').forEach(progress => {
+                progress.style.width = progress.getAttribute('data-progress');
+            });
+        });
+
+        // Contact form validation and submission
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            let name = document.getElementById('name').value.trim();
+            let email = document.getElementById('email').value.trim();
+            let message = document.getElementById('message').value.trim();
+            if (name && email && message) {
+                document.getElementById('form-message').style.display = 'block';
+                setTimeout(() => { document.getElementById('form-message').style.display = 'none'; }, 3000);
+                this.reset();
+            }
+        });
+    </script>
+</body>
+</html>

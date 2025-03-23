@@ -1,0 +1,2678 @@
+body{
+	font-family: JotiOne !important;
+	margin: 0px;
+	padding: 0px;
+	color: #ececec;
+	box-sizing: border-box;
+    /*font-size: 62.5%;*/
+    overflow: visible;
+}
+/*@-moz-document url-prefix() {
+    h2 {
+        color: red;
+    }
+}*/
+.Montserrat{
+	font-family: Montserrat !important;
+}
+span{
+	display: inline-block;
+}
+p{
+	margin: 0px;
+}
+img{
+	vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+    /* color: #eee; */
+    color: #efefef;
+}
+a:hover, a:focus {
+    color: #eee;
+    text-decoration: none;
+}
+.line-height{
+	line-height: 1.8;
+}
+.black-font-color{
+	color: #252525;
+}
+.padding-zero{
+	padding: 0;
+}
+.position-absolute{
+	position: absolute;
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0; 
+    padding-right: 0; 
+}
+/*nagesh start new*/
+.zoo-container{
+    width: 100%;
+    position: relative;
+}
+.header {
+    /* heigh of the banner can be any thing since we are placing the position of backgroud image as bottom */
+    width: 100%;
+    height: 65rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/homePage/Compressed/hero-image.jpg@2x.png);*/
+    background-image: url(../img/homePage/Compressed/hero-image.png);
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.subject_container {
+    /* top is 3rem less than banner height */
+    position: absolute;
+    top: 57rem;
+    width: 100%;
+    text-align: center;
+}
+
+.subject_view {
+	width: 100%;
+    /* height: 67rem; */
+    height: 70rem;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(../img/homePage/Compressed/section1_bg.jpg);
+    /*background-image:url(../img/homePage/Compressed/karnataka-map.png);*/
+}
+.index_footer_container{
+    position: absolute;
+    /* top: 124rem; */
+    top: 127rem;    
+    width: 100%;
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    height: 30rem;
+    color: white;
+}
+.chamarajedra{
+	width: 100%;
+    height: 65rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/chamarajendra-zoological-gardens-mysuru.png);*/
+    background-image: url(../img/mysore/chamarajendra-zoological-gardens-mysuru.png);
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.zoo-title-bg {
+    width: 470px;
+    height: 140px;
+    position: relative;
+    top: 35.3rem;
+}
+.left-bottom-text {
+    position: absolute;
+    top: 53rem;
+    margin-left: 7rem;
+}
+.adobe_container{
+	position: absolute;
+    top: 58rem;
+    width: 100%;
+    text-align: center;
+}
+.adobe {
+	width: 100%;
+    height: 75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/mysore/mysuru-landmark-palace.png);
+}
+.zoo-map-margin-top {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+.about_the_zoo_container{
+	position: absolute;
+    top: 133rem;
+    width: 100%;
+}
+.zoo-map-bg_container{
+	position: absolute;
+    top: 202rem;
+    width: 100%;
+}
+/*.zoo-map-bg{
+	width: 100%;
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.77)),url(../img/detailPage/screen3.png);
+}*/
+.zoo-map-bg{
+    width: 100%;
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    /*background-image: linear-gradient(rgba(16, 29, 16, 0.8), rgba(21, 35, 15, 0.77)),url(../img/detailPage/screen3.png);*/
+    background-image: url(../img/mysore/foliage.png);
+}
+
+.what-happ-bg_container{
+	position: absolute;
+    top: 262rem;
+    width: 100%;
+}
+.what-happ-bg{
+	width: 100%;
+    height: 64rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-image: url(../img/mysore/screen4.png);
+}
+
+/*Get involved */
+
+.involved-second-bg-screen_container{
+    position: absolute;
+    /*top: 62rem;*/
+    top: 48rem;
+    width: 100%;
+}
+
+.involved-second-bg-screen{
+    width: 100%;
+    height: 52rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/getinvolved/beer-screen2.png);
+}
+
+.involved-group-pad-top {
+    padding-top: 9rem;
+}
+
+.involved-groups-image-padd {
+    /* width: 100%; */
+    margin-top: 10rem;
+}
+
+.involved-third-bg-screen_container {
+    position: absolute;
+    /*top: 114rem;*/
+    top: 100rem;
+    width: 100%;
+}
+
+.involved-bg_container {
+    position: absolute;
+    /*top: 190rem;*/
+    top: 180rem;
+    width: 100%;
+}
+
+
+.involved-groups-content{
+    width: 18%;
+}
+
+/*End get involved*/
+
+
+.beer {
+    /* heigh of the banner can be any thing since we are placing the position of backgroud image as bottom */
+    width: 100%;
+    height: 70rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+	/*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/zoo-school-groups.png);*/
+    background-image: url(../img/detailPage/zoo-school-groups.png);
+
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.beer-second-bg-screen_container{
+	position: absolute;
+    top: 62rem;
+    width: 100%;
+}
+.beer-second-bg-screen{
+	width: 100%;
+    height: 63rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-image: url(../img/detailPage/beer-screen2.png);
+}
+.beer-third-bg-screen_container{
+	position: absolute;
+    top: 125rem;
+    width: 100%;
+}
+.beer-third-bg-screen{
+	width: 100%;
+    /*height: 76rem;*/
+    height: 80rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-image: linear-gradient(rgba(6, 6, 6, 0.83), rgb(77, 73, 73)), url(../img/getinvolved/beer-screen3.png);
+}
+.screen4-bg_container{
+	position: absolute;
+    top: 201rem;
+    width: 100%;
+}
+.screen4-bg{
+	width: 100%;
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/mysore/screen4.png);
+}
+
+.get_involved_bg4{
+    width: 100%;
+    height: 65rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/getinvolved/foliage-background.png);
+
+}
+
+
+.getinvolved{
+	width: 100%;
+    /*height: 70rem;*/
+    height: 54rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+	/*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/zak-get-involved.jpg);*/
+    background-image: url(../img/getinvolved/zak-get-involved.png);
+
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+/* shubham added css */
+/* about us css */
+/* later need to make reusable */
+.about-us{
+    background-image: url(../img/about_us/background_image/about-zak-leopard.jpg)!important ;   
+    z-index: 0;
+}
+
+.about-zack-text{
+    font-family: Montserrat;
+    /* max-width: 540px; */
+    /* text-align: center; */
+    color: #252525;
+    /* transform: translate(50%); */
+}
+
+/* .right-to-info-background{
+    background-image: url(../img/about_us/background_image/chimpanzee.png)!important ;   
+    z-index: initial;
+} */
+
+.objective-background{
+    background-image: url(../img/about_us/background_image/forest-background.png)!important ;   
+    z-index: initial;
+    /* height: 60rem!important; */
+}
+
+.objective-block{
+    padding-left: 10%;
+}
+
+ul.objective-bullet  {
+    /* list-style-image: url(../img/about_us/bullets/pins.jpg); */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+li.image-bullet {
+    background: url('../img/about_us/bullets/pug-mark-icon.png') no-repeat left 10px;
+    background-size: 25px;
+    /* height: 70px; */
+    /* font-size: 1.8rem; */
+    font-size: 18px;
+    line-height: 1.78;
+    padding-left: 44px;
+    padding-top: 3px;
+    padding-bottom: 1rem;
+    font-weight: normal;
+    /* display: inline-block; */
+    width: 95%;
+    padding-right: 5%;
+	font-family: Montserrat !important;    
+    }
+
+.footer-event-height{
+    width: 10%;
+}
+
+/* .objective-block > ul > li {
+    display: inline-block;
+    list-style-image: url(../img/about_us/bullets/pins.jpg);    
+    width: 50%;
+} */
+
+
+
+/* about us css end*/
+
+/* shubham added css end */
+
+
+/*nagesh end new*/
+.row{
+	margin: 0;
+}
+.navbar {
+    position: relative;
+    min-height: 140px;
+    margin-bottom: 20px;
+    border: none;
+    background-image: linear-gradient(rgba(5, 5, 5, 0.83), rgba(18, 17, 17, 0));
+}
+
+.navbar-gradient{
+    background-image: initial;    
+}
+.navbar-brand {
+    float: left;
+    /* padding: 15px 15px; */
+    font-size: 18px;
+    line-height: 20px;
+    /* height: 50px; */
+    height: initial;    
+    padding: 15px 0 0 19%;
+}
+.nav {
+	text-align: center;
+	margin: 20px 0 0 ;
+	padding: 10px 0;
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+}
+
+.nav li {
+   display: inline-block;
+   padding: 0px 28px;
+}
+
+.nav a {
+  font-weight: normal;
+  padding: 10px 5px;
+  /* font-size: 1.2em; */
+  font-size: 19px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent; 
+}
+.font-weight{
+	font-weight: 600;
+}
+.colour-white{
+	color: #ececec;
+}
+/*.header{
+	width: 100%;
+	height: 75rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/homePage/Compressed/hero-image.jpg@2x.png);
+}*/
+.font-1{
+	font-size: 40px;
+}
+.font-2{
+	font-size: 30px;
+}
+
+.font-size-34{
+    font-size: 34px;
+}
+
+.font-size-48{
+    font-size: 48px;    
+}
+
+.font-zoo-title{
+	font-size: 25px;
+    letter-spacing: 1px;
+}
+.meet-animal-center-text{
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+
+.font-3{
+	font-size: 20px;
+}
+.font-4{
+    /* font-size: 18px; */
+	font-size: 19px;
+}
+.p-font{
+	font-size: 14px;
+	font-family: Montserrat;
+	line-height: 2;
+    text-align: left;
+}
+
+.section1-three-para{
+    width: 36rem;
+}
+
+.explore-intro{
+    font-family: Montserrat;
+    font-size: 16px;
+    /* font-weight: normal; */
+    /* font-style: normal; */
+    /* font-stretch: normal; */
+    /* line-height: 1.75; */
+    line-height: 28px;
+}
+.copy_right-font{
+	font-size: 12px;
+	font-family: Montserrat;
+}
+.f-font{
+    font-size: 13px;
+}
+.header-title{
+	margin-top: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    cursor :pointer;
+}
+
+.header-title a{
+	color: white;
+}
+
+.background-shade{
+	/*background: linear-gradient(rgba(44, 42, 42, 0.8), rgba(44, 42, 42, 0.8));*/
+	/*background-color: #252525;*/
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.facebook-margin{
+	padding: 0;
+	margin-top: 230px;
+}
+.text-center{
+	text-align: center;
+}
+.explore-margin{
+	margin-top: 2rem;
+    padding-top: 10px;
+}
+
+.explore-logo{
+    height: 112px;
+    width: 112px;
+}
+
+.explore-header-style{
+    line-height: normal;
+}
+.border-radius{
+	border-radius: 2rem;
+}
+.vertical-align{
+	vertical-align: middle;
+}
+.section1{
+	width: 100%;
+	height: 68rem;
+	background-image:url(../img/homePage/Compressed/section1_bg.png);
+	/*background-position: center;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -4%;
+	padding: 0;
+    z-index: -2;
+}
+.section1-three{
+    /* margin-top: 29%; */
+	margin-top: 32%;
+    
+    /*float: right;*/
+}
+
+.kar-map {
+    /*width: 170%;
+    position: absolute;
+    left: -10.6rem;
+    margin-top: 5rem;*/
+    width: 190%;
+    position: absolute;
+    left: -15rem;
+    margin-top: 5rem;
+}
+
+
+.section1-three-content{
+    /* width: 30rem; */
+	width: 36rem;
+    
+    /* height: 30rem; */
+	height: 33.5rem;
+    margin-bottom: 10px;
+	/* margin-top: 2rem; */
+}
+.section2{
+	width: 100%;
+	/*height: 60rem;*/
+    height: 67rem;
+	background-image: url(../img/common/footer-background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.kar-image{
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*background-image: url(../img/homePage/Compressed/map.png);*/
+}
+/*composition start*/
+.composition{
+	position: relative;
+}
+.composition-photo{
+	position: absolute;
+	z-index: 10;
+	transition: 0.3s ease;
+    cursor: pointer;
+}
+.composition-photo:hover {
+    -webkit-transform: scale(1.5) translateY(1.5rem);
+    transform: scale(1.5, 1.5);  /*default is 1, scale it to 1.5 */
+    opacity: 1;
+    z-index: 20;
+}
+.composition-photo-1{
+	top: 17rem;
+    left: 24.2rem;
+    width: 90px;
+    height: 63px;
+}
+.composition-photo-2{
+	top: 26.8rem;
+    left: 17.7rem;
+    width: 65px;
+    height: 100px;
+    /*transition: 0.3s ease;
+    cursor: pointer;*/
+}
+/*.composition-photo-2:hover {
+    transform: scale(1.5, 1.5); 
+    opacity: 1;
+}*/
+.composition-photo-3{
+	top: 26.8rem;
+    left: 11.1rem;
+    width: 66px;
+    height: 66px;
+}
+.composition-photo-4{
+	top: 33.4rem;
+    left: 24.2rem;
+    width: 100px;
+    height: 75px;
+}
+.composition-photo-5{
+	top: 36.8rem;
+    left: 13.8rem;
+    width: 104px;
+    height: 65px;
+}
+.composition-photo-6{
+    top: 40.9rem;
+    left: 24.2rem;
+    width: 100px;
+    height: 65px;
+}
+.composition-photo-7{
+	top: 43.3rem;
+    left: 15.7rem;
+    width: 85px;
+    height: 65px;
+}
+.composition-photo-8{
+	top: 47.4rem;
+    left: 24.2rem;
+    width: 135px;
+    height: 80px;
+
+}
+.composition-photo-9{
+    top: 55.4rem;
+    left: 24.2rem;
+    width: 100px;
+    height: 65px;
+}
+.composition-photo-10 {
+    top: 20.5rem;
+    left: 15.2rem;
+    width: 90px;
+    height: 63px;
+}
+.composition-photo-11 {
+    top: 23.3rem;
+    left: 24.2rem;
+    width: 45px;
+    height: 35px;
+}
+/*composition end*/
+.facebook_bg{
+    width: 100%;
+    /* height: 100%; */
+	/*height: 230px;*/
+	/*background-image: url(../img/homePage/Compressed/shade_down.png);*/
+}
+
+.hide-feed{
+    /* height: 50%!important; */
+}
+
+/* quick fix for 1920px */
+.large-fb-Feed{
+    display: none!important;
+}
+/*  quick fix for 1920px*/
+/* .twitter_bg{
+
+}
+.videos_bg{
+
+}
+.news_and_events_bg{
+
+} */
+.col-8{
+	width: 12%;
+}
+.about-us-margin{
+	margin-top: 4rem;
+}
+.copy_right{
+	font-family: Montserrat;
+	padding: 6px;
+	background-color: #000;
+}
+
+.logo-ele{
+    /* padding: 14px 1px 1px 10px; */
+    /* height: 85px; */
+    /* width: 203px; */
+    /* width: 207px; */
+    width: 100%;
+    height: 100%;
+    
+}
+
+.socialLogos{
+	width: 58px;
+    height: 177px;
+    opacity: 0.60;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 2rem;
+}
+.socialLogos_content{
+	font-size: 2.5rem;
+	margin: 1rem;
+}
+
+.header-2{
+	width: 100%;
+	height: 644px;
+	/*background-image: url(/home/ubuntu/nagesh/animals/CorbettNP_SudipBanerjee.JPG);*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/chamarajedra.png);
+}
+/*footer*/
+.footer-lables{
+	/*margin: 30px 0;*/
+    margin: 55px 0;
+}
+/*chamarajedra start*/
+/*.chamarajedra{
+	width: 100%;
+	height: 65rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/chamarajendra.png);
+}*/
+/*.zoo-title-bg {
+    width: 464px;
+    height: 125px;
+    position: relative;
+    top: 35.7rem;
+}*/
+.meet-top-mar{
+	    margin-top: 4rem;
+}
+.meet-animal-buttons{
+	position: relative;
+    top: 11rem;
+}
+.meet-animal-buttons-height{
+	height: 90px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+/*.adobe{
+	width: 100%;
+	height: 75rem;
+	margin-top: -4%;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/detailPage/mysuru-landmark-palace.png);
+}*/
+/*.zoo-map-bg {
+    width: 100%;
+    height: 60rem;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0, 0.12), rgba(0,0,0, 0.77)),url(../img/detailPage/screen3.png);
+}*/
+/*.zoo-map-bg {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.77)),url(../img/detailPage/screen3.png);
+}*/
+.meet-animal-left-padd{
+	padding-left: 5rem;
+}
+.meet-animal{
+	top: 13rem;
+	left: 28rem;
+}
+.meet-animal-text-first{
+    position: absolute;
+    right: 19rem;
+    top: 1.5rem;
+}
+.meet-animal-text-second{
+    position: absolute;
+    right: 28rem;
+    top: 10rem;
+}
+.meet-animal-text-third{
+    /*position: absolute;
+    right: 38rem;
+    top: 22.5rem;*/
+    position: absolute;
+    right: 33rem;
+    top: 22.5rem;
+    width: 150px;
+    text-align: right;
+}
+.meet-animal-text-fourth{
+    /*position: absolute;
+    right: 34rem;
+    top: 36rem;*/
+    position: absolute;
+    right: 29rem;
+    top: 34rem;
+    width: 150px;
+    text-align: right;
+}
+.meet-animal-text-fifth{
+    position: absolute;
+    right: 19rem;
+    top: 43rem;
+}
+.zoo-map-padd{
+	/*padding: 8rem;*/
+    padding: 17px 10rem 8rem 10rem;
+}
+/*.zoo-map-margin-top{
+	padding-top: 8rem;
+	padding-bottom: 3rem;
+}*/
+.zoo-map-margin{
+	margin: 5rem 0;
+}
+.events-margin-bottom{
+	margin-bottom: 4rem;
+}
+.view_map-position{
+    left: 11.6rem;
+    top: 0rem;
+}
+.events-position{
+	left: 12.6rem;
+    top: 0rem;
+}
+.buy_now-position{
+    left: 12rem;
+    top: 0rem;
+}
+.what-padd-top{
+	padding-top: 3rem;
+}
+.what-happen{
+	margin-bottom: 1rem;
+}
+.what-happen-img{
+    width: 70%;
+    height: 480px;
+    margin-top: 2rem;
+}
+
+.margin-zero{
+	margin: 0;
+}
+/*.left-bottom-text{
+    position: absolute;
+    top: 44rem;
+    margin-left: 7rem;
+}*/
+/*.font-3{
+	font-size: 25px;
+}*/
+.colour-bg-light-gray{
+	background-color: #ebebeb;
+}
+.colour-dark-gray{
+	color: #333;
+}
+.position-bottom{
+	position: absolute;
+	bottom: 0px;
+}
+
+/*.what-happ-bg {
+    width: 100%;
+    height: 60rem;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: url(../img/detailPage/screen3.png);
+}*/
+.get-involved-width{
+	width: 9.333333% !important;
+}
+
+.save-tickets{
+	position: absolute;
+    right: 14rem;
+    top: 10rem;
+}
+.social-logo{
+	position: absolute;
+    top: 35rem;
+}
+/*grid images start*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.div-left{
+	float: left;
+}
+.small-image{
+	width: 100%;
+	height: 250px;
+}
+.small-image-content-height{
+	height: 250px;
+}
+.bg-image{
+	width: 100%;
+	height: 500px;
+}
+.bg-image-content-height{
+	height: 500px;
+}
+.about-the-zoo{
+	background-color: #252525;
+	padding: 3rem 6.5rem;
+}
+.hampi-about-the-zoo{
+    background-color: #252525;
+    padding: 0rem 6.5rem;
+}
+.about-the-zoo-content{
+    /* font-size: 15px; */
+	font-size: 18px;
+    
+}
+
+/*grid images end*/
+.button-right{
+	position: absolute;
+    /* font-size: 20px; */
+    font-size: 25px;
+    font-weight: 500;    
+	right: 2rem;
+    cursor: pointer;
+    z-index: 1;
+}
+.mamals{
+    top: 2.8rem;
+}
+.reptiles{
+    top: 12.2rem;
+}
+.amphibians{
+    top: 21.7rem;
+}
+.birds{
+    top: 31rem;
+}
+.fish{
+    top: 39.2rem;
+}
+.animals-images {
+    position: absolute;
+    height: 95px;
+    /*width: 95px;*/
+}
+.animals-images-lion{
+	right: 6rem;
+}
+.animals-images-tiger {
+    right: 16rem;
+    top: 8rem;
+}
+.animals-images-jaguar {
+    right: 20rem;
+    top: 19rem;
+}
+.animals-images-leopard {
+    right: 16rem;
+    top: 31rem;
+    /*width: 95px;*/
+    /*width: 120px;*/
+}
+.animals-images-cheeta {
+    right: 6rem;
+    top: 39.5rem;
+}
+/*chamarajedra end*/
+
+/*beer start*/
+/*.beer{
+	width: 100%;
+	height: 60rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/zoo-school-groups.png);
+}*/
+/*.beer-second-bg-screen{
+    width: 100%;
+	height: 60rem;
+	margin-top: -4%;
+	z-index: -4;
+	background-size: cover;
+	background-image: url(../img/detailPage/beer-screen2.png);
+}*/
+.school-groups-image-padd{
+		/*width: 100%;*/
+		margin-top: 10rem;
+	    padding: 0px 8rem;
+}
+.school-groups-image-mar-top{
+	margin-top: 6rem;
+}
+.school-groups-content{
+	padding: 2.5rem;
+    float: left;
+}
+.heading-pad-top{
+	/*padding-top: 4rem;*/
+    padding: 2.5rem 0rem;
+}
+/*.beer-third-bg-screen{
+    width: 100%;
+	height: 78rem;
+	z-index: -4;
+	background-size: cover;
+	background-image: linear-gradient(rgba(6, 6, 6, 0.83), rgb(77, 73, 73)), url(../img/detailPage/beer-screen3.png);
+}*/
+.school-group-pad-top{
+	padding-top: 6rem;
+}
+.program-para {
+    font-family: Montserrat;
+    padding: 0px 27%;
+    line-height: 2;
+    text-align: center;
+}
+
+.program-para-volunteer {
+    font-family: Montserrat;
+    padding: 0px 30%;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+}
+
+.program-para-16{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.program-grid-row{
+	padding: 0 5rem;
+}
+.program-grid-col{
+	padding: 0 15px;
+}
+.guided-tour{
+	width: 100%;
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/detailPage/guided-tours.jpg);
+}
+.guided-tour-heading-p{
+	padding: 0 0 10px 0;
+}
+.guided-tour-p{
+	padding: 2rem;
+}
+.guided-tour-padd-bott{
+    padding-bottom: 4rem;
+}
+.find-out-more{
+	position: absolute;
+    left: 11rem;
+    top: 0rem;
+}
+.campus-and-activities{
+	width: 100%;
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/detailPage/camp-and-activities.jpg);
+}
+.for-teachers{
+	width: 100%;
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/detailPage/for-teachers.jpg);
+}
+.zak-publication-pad-bot{
+	margin-bottom: -6px
+}
+/*.screen4-bg{
+	width: 100%;
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/detailPage/screen4.png);
+}*/
+.program-para-padd-bott{
+	padding-bottom: 2rem;
+}
+.publication-img{
+	width: 100%;
+	height: 420px;
+}
+.publication {
+    background-color: rgba(235, 235, 235, 0.5);
+    height: 420px;
+}
+.publication-padd{
+	padding: 5rem 7rem;
+}
+.publication-content{
+	margin-top: 3rem;
+}
+.check-for-more-mar-top{
+	margin-top: 4.5rem;
+}
+.check-for-more{
+	position: absolute;
+    left: 8rem;
+    top: 0rem;
+}
+.check-for-more-img{
+	width: 300px;
+}
+/*beer end*/
+
+/*get involved start*/
+/*.getinvolved{
+	width: 100%;
+	height: 55rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/zak-get-involved.jpg);
+}*/
+.getinvolved-content {
+    padding: 2rem;
+    float: left;
+}
+
+.volunteer-padding{
+    padding-left: 125px;
+    padding-bottom: 22px;
+}
+
+
+.adopt{
+	width: 100%;
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    /*background-image: url(../img/detailPage/adopt.jpg);*/
+	background-image: url(../img/get_involved/zoo-animal-adoption.png);
+}
+.Act-for-the-wild{
+	width: 100%;
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/get_involved/zoo-animal-conservation.png);
+}
+.events{
+	width: 100%;
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/get_involved/zoo-education.png);
+}
+/*get involved end*/
+
+/*bannerghatta start*/
+.bannerghatta{
+    width: 100%;
+    height: 65rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/bannerghatta.png);*/
+    background-image: url(../img/bengaluru/bannerghatta.png);
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+.bannerghatta_landmark{
+    width: 100%;
+    height: 75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bengaluru/bengaluru-landmark-vidhana-soudha.png);
+}
+
+/*bannerghatta end*/
+
+/*gulbarga start*/
+.gulbarga{
+    width: 100%;
+    height: 65rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/gulbarga_hero.png);*/
+    background-image: url(../img/gulbarga/gulbarga_hero.png);
+
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+.gulbarga_landmark{
+    width: 100%;
+    height: 75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/gulbarga/gulbarga-landmark-sharana-basaveshwara-temple.png);
+}
+.gulbarga-meet-animal-buttons{
+    top: 21rem
+}
+/*gulbarga end*/
+/*davanagere start*/
+.davanagere{
+    width: 100%;
+    height: 65rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/davanagere_hero.png);*/
+    background-image: url(../img/davanagere/davanagere_hero.png);
+
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+.davanagere_landmark{
+    width: 100%;
+    height: 75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/davanagere/davanagere-landmark-harihareshwaratemple.png);
+}
+.davanagere-meet-animal-buttons{
+    top: 25rem;
+}
+/*davangere end*/
+/*gadag start*/
+.gadag{
+    width: 100%;
+    height: 65rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/gadag_hero.png);*/
+    background-image: url(../img/gadag/gadag_hero.png);
+
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+.gadag_landmark{
+    width: 100%;
+    height: 75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/gadag/gadag-landmark-doddabasappa-temple.png);
+}
+.gadag-meet-animal-buttons{
+    top: 17rem;
+}
+/*gadag end*/
+/*shimoga start*/
+.shimoga{
+    width: 100%;
+    height: 65rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/shivamogga.png);*/
+    background-image: url(../img/shivamogga/shivamogga.png);
+
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+.shimoga_landmark{
+    width: 100%;
+    height: 75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/shivamogga/shivamogga-landmark-jog-falls.png);
+}
+.shimoga-meet-animal-buttons{
+    top: 21rem !important;
+}
+/*Shimoga end*/
+/*chitradurga start*/
+.chitradurga{
+    width: 100%;
+    height: 65rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/shivamogga.png);*/
+    /*background-image: url(../img/detailPage/shivamogga.png);*/
+    background-image: url(../img/chitradurga/hero-image.png);
+
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+.chitradurga_landmark{
+    width: 100%;
+    height: 75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/chitradurga/chitradurga-landmark-fort-temple.png);
+}
+.chitradurga-meet-animal-buttons{
+    top: 21rem;
+}
+/*chitradurga end*/
+
+/*belagavi start*/
+.belagavi{
+    width: 100%;
+    height: 65rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/shivamogga.png);*/
+    background-image: url(../img/belagavi/hero-image.png);
+
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+.belagavi_landmark{
+    width: 100%;
+    height: 75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/belagavi/belagavi-landmark-kamal-basti-temple.png);
+}
+.belagavi-meet-animal-buttons{
+    /*top: 21rem;*/
+    top: 25rem;
+
+}
+/*belagavi end*/
+/*hampi start*/
+.hampi{
+    width: 100%;
+    height: 65rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(to top, rgba(248, 249, 247, 0), rgba(77, 73, 73, 0.9)),url(../img/detailPage/shivamogga.png);*/
+    background-image: url(../img/hampi/hampi.png);
+
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+.hampi_landmark{
+    width: 100%;
+    height: 75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/hampi/hampi-landmark-vijaya-vittala-temple.png);
+}
+.hampi-meet-animal-buttons{
+    top: 21rem;
+}
+/*hampi end*/
+
+/*Visit drop down start*/
+.dropdown-menu {
+    min-width: 200px;
+    /* background-color: transparent !important; */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.dropdown-menu.columns-2 {
+    min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+    min-width: 600px;
+}
+.dropdown-menu li a {
+    padding: 5px 15px;
+    font-weight: 300;
+}
+.multi-column-dropdown {
+    list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+    display: block;
+    clear: both;
+    line-height: 1.428571429;
+    color: #ececec;
+    white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+    text-decoration: none;
+    color: #ececec;
+    background-color: #252525;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+     background-color: transparent !important; 
+     border-color: #428bca; 
+}
+ 
+/*@media (max-width: 767px) {
+    .dropdown-menu.multi-column {
+        min-width: 240px !important;
+        overflow-x: hidden;
+    }
+}*/
+/* visit drop down end*/
+
+/*Media Quieries*/
+@media only screen and (min-device-width : 1601px) and (max-device-width : 2560px){
+    .kar-map {
+        width: 135%;
+        /* width: 155%; */
+        position: absolute;
+        left: -18rem;
+        margin-top: 0rem;
+    }
+    .section2 {
+        height: 71rem;
+    }
+    .meet-animal {
+        top: 19rem;
+        left: 40rem;
+    }
+    .zoo-map-bg_container {
+        top: 208rem;
+    }
+    .what-happ-bg_container {
+        top: 266rem;
+    }
+
+    /* added by shubham as quick fix for 1920px resolution */
+    .section1-three {
+        /* margin-top: 29%; */
+        margin-top: 30%;
+        /* float: right; */
+    }
+
+    .section1-three-content {
+        /* width: 30rem; */
+        width: 40rem;
+        /* height: 30rem; */
+        /* height: 33.5rem; */
+        /* margin-bottom: 10px; */
+        /* margin-top: 2rem; */
+    }
+
+    .section1-three-para {
+        width: 40rem;
+    }
+
+    .composition-photo{
+        /* transform: translate(5%,10%) scale(1.2); */
+    }
+
+    .composition-photo:hover{
+        /* transform: translate(5%,10%) scale(1.7); */
+    }
+
+    .large-fb-Feed{
+        display: block!important;
+        width: 100%;
+    }
+
+    .hide-feed{
+        display: none!important;
+    }
+
+    /* added by shubham as quick fix for 1920px resolution, end*/
+
+}
+@media only screen and (min-device-width : 1441px) and (max-device-width : 1600px){
+    .kar-map {
+        width: 160%;
+        position: absolute;
+        left: -18rem;
+        margin-top: 0rem;
+    }
+    /*get involved start*/
+    .involved-bg_container {
+        top: 180rem;
+    }
+    /*get involved end*/
+    .meet-animal {
+        top: 19rem;
+        left: 40rem;
+    }
+    .zoo-map-bg_container {
+        top: 208rem;
+    }
+    .what-happ-bg_container {
+        top: 268rem;
+    }
+    .view_map-position {
+        left: 15.6rem;
+        top: 0rem;
+    }
+    .events-position {
+        left: 17.8rem;
+        top: 0rem;
+    }
+    .buy_now-position {
+        left: 15.5rem;
+        top: 0rem;
+    }
+}
+@media only screen and (min-device-width : 1367px) and (max-device-width : 1440px){
+    .kar-map {
+        width: 175%;
+        position: absolute;
+        left: -17rem;
+        margin-top: 0rem;
+    }
+    /*get involved start*/
+    .involved-bg_container {
+        top: 180rem;
+    }
+    /*get involved end*/
+    .meet-animal {
+        top: 19rem;
+        left: 36rem;
+    }
+    .zoo-map-bg_container {
+        top: 208rem;
+    }
+    .what-happ-bg_container {
+        top: 268rem;
+    }
+    .view_map-position {
+        left: 13.6rem;
+        top: 0rem;
+    }
+    .events-position {
+        left: 15.5rem;
+        top: 0rem;
+    }
+    .buy_now-position {
+        left: 13.5rem;
+        top: 0rem;
+    }
+}
+@media only screen and (min-device-width : 1281px) and (max-device-width : 1366px){
+    .nav li {
+        /* padding: 0px 30px; */
+        padding: 0px 25px;
+
+    }
+    .kar-map {
+        width: 192%;
+        position: absolute;
+        left: -17rem;
+        margin-top: 0rem;
+    }
+    /*get involved start*/
+    .involved-bg_container {
+        top: 180rem;
+    }
+    /*get involved end*/
+
+    /*chamarajendra start*/
+    .adobe {
+        height: 71rem;
+    }
+    .meet-animal {
+        top: 19rem;
+        /* left: 34rem; */
+        left: 32rem;
+        
+    }
+    .zoo-map-bg_container {
+        top: 204rem;
+    }
+    .view_map-position{
+        left: 10.5rem;
+    }
+    .events-position {
+        left: 12.8rem;
+    }
+    .buy_now-position{
+        left: 10.5rem;
+    }
+    .what-happ-bg_container {
+        top: 264rem;
+    }
+    .about_the_zoo_container {
+        top: 129rem;
+    }
+    /*chamarajendra end*/
+    /*bannerghatta start*/
+    .bannerghatta_landmark{
+        height: 71rem;
+    }
+    /*bannerghatta end*/
+
+    /*shimoga start*/
+    .shimoga_landmark{
+        height: 71rem;
+    }
+    /*shimoga end*/
+    /*chitradurga start*/
+    .chitradurga_landmark{
+        height: 71rem;
+    }
+    /*chitradurga end*/
+    /*davanagere start*/
+    .davanagere_landmark{
+        height: 71rem;
+    }
+    /*davanagere end*/
+    /*gulbarga start*/
+    .gulbarga_landmark{
+        height: 71rem;
+    }
+    /*gulbarga end*/
+    /*hampi start*/
+    .hampi_landmark{
+        height: 71rem;
+    }
+    /*hampi end*/
+    /*gadag start*/
+    .gadag_landmark{
+        height: 71rem;
+    }
+    /*gadag end*/
+    /*belagavi start*/
+    .belagavi_landmark{
+        height: 71rem;
+    }
+    /*belagavi end*/
+}
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1280px) {
+	.nav li {
+        /* padding: 0px 25px; */
+        padding: 0px 15px;
+        font-size: 12px;
+        
+	}
+    /*home page start*/
+    .header{
+        height: 65rem;
+    }
+    .subject_container{
+        top: 57rem;
+    }
+    .subject_view {
+        /* height: 63rem; */
+        height: 64rem;
+        
+    }
+    .index_footer_container {
+        /* top: 120rem; */
+        top: 121rem;
+        
+    }
+    .kar-map {
+        /*left: -9.6rem;
+        margin-top: 1rem;*/
+        margin-top: -1rem;
+    }
+    .view_map-position{
+        left: 9.5rem;
+    }
+    .events-position {
+        left: 11.8rem;
+    }
+    .buy_now-position{
+        left: 9.3rem;
+    }
+    .composition-photo-1 {
+        top: 13rem;
+    }
+    .composition-photo-2 {
+        top: 22.8rem;
+    }
+    .composition-photo-3 {
+        top: 22.8rem;
+    }
+    .composition-photo-4 {
+        top: 29.4rem;
+    }
+    .composition-photo-5 {
+        top: 32.8rem;
+    }
+    .composition-photo-6 {
+        top: 36.9rem;
+    }
+    .composition-photo-7 {
+        top: 39.3rem;
+    }
+    .composition-photo-8 {
+        top: 43.4rem;
+    }
+    .composition-photo-9 {
+        top: 51.4rem;
+    }
+    .composition-photo-10 {
+        top: 16.5rem;
+    }
+    .composition-photo-11 {
+        top: 19.3rem;
+    }
+    /*home page end*/
+    /*get involved start*/
+    .beer-third-bg-screen {
+        height: 86rem;
+    }
+    .find-out-more {
+        left: 6rem;
+    }
+    .involved-bg_container {
+        top: 186rem;
+    }
+    .section2 {
+        height: 55rem;
+    }
+    /*get involved end*/
+    /*chamarajendra start*/
+    .adobe {
+        height: 67rem;
+    }
+    /*chamarajendra end*/
+    /*bannerghatta start*/
+    .bannerghatta_landmark{
+        height: 67rem;
+    }
+    /*bannerghatta end*/
+
+    /*shimoga start*/
+    .shimoga_landmark{
+        height: 67rem;
+    }
+    /*shimoga end*/
+    /*chitradurga start*/
+    .chitradurga_landmark{
+        height: 67rem;
+    }
+    /*chitradurga end*/
+    /*davanagere start*/
+    .davanagere_landmark{
+        height: 67rem;
+    }
+    /*davanagere end*/
+    /*gulbarga start*/
+    .gulbarga_landmark{
+        height: 67rem;
+    }
+    /*gulbarga end*/
+    /*hampi start*/
+    .hampi_landmark{
+        height: 67rem;
+    }
+    /*hampi end*/
+    /*gadag start*/
+    .gadag_landmark{
+        height: 67rem;
+    }
+    /*gadag end*/
+    /*belagavi start*/
+    .belagavi_landmark{
+        height: 67rem;
+    }
+    /*belagavi end*/
+    .about_the_zoo_container {
+        top: 125rem;
+    }
+    .zoo-map-bg_container {
+        top: 200rem;
+    }
+    .what-happ-bg_container {
+        top: 260rem;
+    }
+    .meet-top-mar {
+        margin-top: 1rem;
+    }
+	.meet-animal {
+	    top: 18rem;
+	    /*left: 32rem;*/
+        left: 31rem;
+	}
+    .school-groups-content {
+        padding: 3rem;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 769px) and (max-device-width : 1024px) {
+	/*footer*/
+	.facebook_bg {
+	    width: 100%;
+	    height: 200px;
+	}
+	/*home page start*/
+	h2, .h2 {
+	    font-size: 22px;
+	}
+	.p-font {
+		font-size: 11px;
+	    line-height: 1.6;
+    }
+    .explore-intro{
+		font-size: 11px;
+        line-height: 1.75;    
+    }
+    .section1-three-para{
+        /* height: 10rem; */
+        width: 30rem;
+	}
+	.font-2 {
+	    font-size: 25px;
+    }
+    .font-size-34{
+        /* font-size: 34px; */
+        font-size: 25px;
+    }
+    .font-size-48{
+        /* font-size: 48px;     */
+        font-size: 40px;
+    
+    }
+	.font-zoo-title {
+	    font-size: 20px;
+    }
+    .meet-animal-center-text{
+        font-size: 20px;
+        /* letter-spacing: 1px; */
+    }
+    .nav {
+	    padding-left: 0px; 
+	    list-style: none;
+	}
+	.nav li {
+        padding: 0px 5px;
+        font-size: 12px;
+	}
+	.logo-ele {
+	    width: 125px;
+	    height: 70px;
+	    /* padding: 14px 1px 1px 10px; */
+	   
+	}
+    .header{
+        height: 47rem;
+    }
+    .subject_container{
+        top: 41rem
+    }
+    .subject_view {
+        /* height: 52rem; */
+        height: 56rem;
+        
+    }
+    .index_footer_container {
+        /* top: 93rem; */
+        top: 97rem;
+        
+    }
+	.section1{
+		height: 55rem;
+	}
+	.section1-three-content {
+	    width: 25rem;
+	}
+	.about-us-margin {
+	    margin-top: 3rem;
+	    text-align: center;
+	    padding-left: 5rem;
+	}
+	.kar-map {
+	    width: 189%;
+	    position: absolute;
+	    left: -15rem;
+        margin-top: 0rem;
+	}
+	.composition-photo{
+		position: absolute;
+		z-index: 10;
+		transition: 0.3s ease;
+	    cursor: pointer;
+	}
+	.composition-photo:hover {
+	    transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+	    opacity: 1;
+	}
+	.composition-photo-1 {
+	    top: 11rem;
+	    left: 15.8rem;
+	}
+	.composition-photo-2 {
+	    top: 19.7rem;
+	    left: 9.8rem;
+	    width: 59px;
+	    height: 85px;
+	}
+	.composition-photo-3 {
+	    top: 19.7rem;
+	    left: 4.3rem;
+	    width: 55px;
+	    height: 55px;
+	}
+	.composition-photo-4 {
+	    top: 25.2rem;
+	    left: 15.8rem;
+	    width: 83px;
+	    height: 65px;
+	}
+	.composition-photo-5 {
+	    top: 28.2rem;
+	    left: 6.8rem;
+	    width: 90px;
+	    height: 60px;
+	}
+	.composition-photo-6 {
+	    top: 31.7rem;
+	    left: 15.8rem;
+	    width: 83px;
+	    height: 60px;
+	}
+	.composition-photo-7 {
+	    top: 34.2rem;
+	    left: 8.2rem;
+	    width: 75px;
+	    height: 65px;
+	}
+	.composition-photo-8 {
+	    top: 37.4rem;
+	    left: 15.8rem;
+	    width: 118px;
+	    height: 70px;
+	}
+	.composition-photo-9 {
+	    top: 44.4rem;
+	    left: 15.8rem;
+	    width: 85px;
+	    height: 65px;
+	}
+	.composition-photo-10 {
+	    top: 14rem;
+	    left: 7.6rem;
+	    width: 85px;
+	    height: 55px;
+	}
+	.composition-photo-11 {
+	    top: 17.4rem;
+	    left: 15.8rem;
+	    width: 50px;
+	    height: 24px;
+	}
+	/*home page end*/
+
+	/*chamarajendra start*/
+	.adobe {
+	    height: 67rem;
+	}
+	.meet-animal {
+	    top: 18rem;
+	    left: 20rem;
+	}
+    .animals-images {
+        height: 85px;
+    }
+    .view_map-position{
+        left: 6.3rem;
+    }
+	.events-position {
+	    left: 8.3rem;
+	}
+    .buy_now-position{
+        left: 5.3rem;
+    }
+	.save-tickets {
+	    position: absolute;
+	    right: 11.5rem;
+	    top: 10rem;
+	}
+	.zoo-title-bg {
+	    width: 430px;
+	    height: 170px;
+	    position: relative;
+	    top: 22.5rem;
+	    margin-left: -10rem;
+	}
+	.left-bottom-text {
+	    position: absolute;
+	    top: 44rem;
+	    margin-left: 4rem;
+	}
+	.what-happ-bg {
+	    height: 60rem;
+	}
+	.what-happen-img {
+	    height: 450px;
+	}
+	.button-right {
+	    font-size: 16px;
+	    right: 2rem;
+	}
+	.meet-animal-left-padd {
+	    padding-left: 3rem;
+	}
+    .meet-top-mar {
+        margin-top: 1rem;
+    }
+    .meet-animal-text-first {
+        right: 17rem;
+    }
+    .meet-animal-text-second {
+        right: 26rem;
+    }
+    .meet-animal-text-third {
+        right: 31rem;
+    }
+    .meet-animal-text-fourth {
+        right: 27rem;
+    }
+    .meet-animal-text-fifth {
+        right: 17rem;
+    }
+    .zoo-map-padd {
+        padding: 17px 8rem 8rem 8rem;
+    }
+    .section2 {
+        height: 50rem;
+    }
+	/*chamarajendra end*/
+	
+	/*beer start*/
+	.school-groups-image-padd {
+	    padding: 0px 1rem;
+	}
+	.school-groups-content {
+	    padding: 0 1rem;
+	    vertical-align: top;
+	}
+	.beer-third-bg-screen {
+    	margin-top: -14%;
+	}
+	.find-out-more {
+	    left: 6rem;
+	}
+	.program-para {
+	    padding: 0px 25.33%;
+    }
+    .program-para-volunteer{
+	    padding: 0px 25.33%;        
+    }
+	.publication-img {
+	    width: 100%;
+	    height: 335px;
+	}
+	.publication {
+	    height: 335px;
+	}
+	.publication-padd {
+	    padding: 3.5rem 7rem;
+	}
+	/*beer end*/
+
+	/*get involved start*/
+	.getinvolved-content {
+	    padding: 0.8rem;
+	    float: left;
+	}
+    .involved-bg_container {
+        position: absolute;
+        top: 175rem;
+        width: 100%;
+    }
+    .screen4-bg {
+        height: 50rem;
+    }
+	/*get involved end*/
+
+    /*bannerghatta start*/
+    .bannerghatta{
+        height: 55rem;
+    }
+    .bannerghatta_landmark{
+        height: 67rem;
+    }
+    /*bannerghatta end*/
+
+    /*shimoga start*/
+    .shimoga{
+        height: 55rem;
+    }
+    .shimoga_landmark{
+        height: 67rem;
+    }
+    /*shimoga end*/
+    /*chitradurga start*/
+    .chitradurga{
+        height: 55rem;
+    }
+    .chitradurga_landmark{
+        height: 67rem;
+    }
+    /*chitradurga end*/
+    /*davanagere start*/
+    .davanagere{
+        height: 55rem;
+    }
+    .davanagere_landmark{
+        height: 67rem;
+    }
+    /*davanagere end*/
+    /*gulbarga start*/
+    .gulbarga{
+        height: 55rem;
+    }
+    .gulbarga_landmark{
+        height: 67rem;
+    }
+    /*gulbarga end*/
+    /*hampi start*/
+    .hampi{
+        height: 55rem;
+    }
+    .hampi_landmark{
+        height: 67rem;
+    }
+    /*hampi end*/
+    /*gadag start*/
+    .gadag{
+        height: 55rem;
+    }
+    .gadag_landmark{
+        height: 67rem;
+    }
+    /*gadag end*/
+    /*belagavi start*/
+    .belagavi{
+        height: 55rem;
+    }
+    .belagavi_landmark{
+        height: 67rem;
+    }
+    /*belagavi end*/
+    /*nagesh new*/
+    .chamarajedra {
+        height: 55rem;
+    }
+    .adobe_container {
+        top: 47rem;
+    }
+    .about_the_zoo_container {
+        top: 114rem;
+    }
+    .zoo-map-bg_container {
+        top: 189rem;
+    }
+    .what-happ-bg_container {
+        top: 248rem;
+    }
+    .beer-third-bg-screen {
+        height: 76rem;
+    }
+    .screen4-bg_container {
+        top: 186.5rem;
+    }
+    .involved-third-bg-screen {
+        height: 89rem;
+    }
+}
+@media only screen and (max-device-width: 768px){
+    .logo-ele{
+        height: 74px;
+        width: 159px;
+    }
+
+	/*home page start*/
+	h2, .h2 {
+	    font-size: 17px;
+	}
+	.nav {
+        padding-left: 32px;
+	    margin: 35px 0 0;
+	}
+	.nav li {
+        padding: 0px 9px;
+        font-size: 12px;        
+	}
+	/*.nav > li > a {
+	    padding: 0px; 
+	}*/
+	.nav a {
+	    font-size: 1em;
+	}
+    .header{
+        height: 55rem
+    }
+    .subject_container {
+        top: 49rem;
+    }
+    .subject_view {
+        /* height: 45rem; */
+        height: 46rem;
+        
+    }
+    .index_footer_container {
+        /* top: 94rem; */
+        top: 95rem;
+        
+    }
+    .section1{
+    	height: 51rem;
+    	margin-top: -4%;
+    }
+    .facebook-margin {
+	    margin-top: 145px;
+	}
+	.kar-map {
+	    width: 155%;
+        left: -11rem;
+        margin-top: 1rem;
+	}
+	.section1-three-content {
+	    width: 22rem;
+	    height: 22rem;
+	    margin-top: 2rem;
+	}
+
+	.explore-margin {
+	    margin-top: 1rem;
+    }
+
+    .explore-logo{
+        height: 90px;
+        width: 90px;
+    }
+    
+    .explore-header-style{
+        line-height: 1.2;
+    }
+
+	.font-1 {
+	    font-size: 30px;
+	}
+	.font-2 {
+	    font-size: 20px;
+    }
+    .font-size-34{
+        /* font-size: 34px; */
+        font-size: 20px;
+    
+    }
+    .font-size-48{
+        /* font-size: 48px;     */
+        font-size: 30px;
+    
+    }
+	.font-zoo-title {
+	    font-size: 20px;
+    }
+    .meet-animal-center-text{
+        font-size: 20px;
+        /* letter-spacing: 1px; */
+    }
+	.p-font {
+	    font-size: 9px;
+    }
+    
+    .explore-intro{
+        font-size: 9px;
+        line-height: 1.75;
+    }
+    .section1-three-para{
+        /* height: 10rem; */
+        width: 22rem;
+	}
+    .section2 {
+	    height: 50rem;
+	}
+	.facebook_bg {
+	    height: 170px;
+	    /* background-image: url(../img/homePage/Compressed/shade_down.png); */
+	}
+	.about-us-margin {
+		margin-top: 3rem;
+	    padding-left: 1.2rem;
+	}
+	.composition-photo{
+		position: absolute;
+		z-index: 10;
+		transition: 0.3s ease;
+	    cursor: pointer;
+	}
+	.composition-photo:hover {
+	    transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+	    opacity: 1;
+	}
+	.composition-photo-1 {
+	    top: 9rem;
+	    left: 12.5rem;
+	    height: 45px;
+	    width: 60px;
+	}
+	.composition-photo-2 {
+	    top: 15.7rem;
+	    left: 8.2rem;
+	    width: 43px;
+	    height: 65px;
+	}
+	.composition-photo-3 {
+	    top: 15.7rem;
+	    left: 3.9rem;
+	    width: 43px;
+	    height: 42px;
+	}
+	.composition-photo-4 {
+	    top: 20rem;
+	    left: 12.5rem;
+	    width: 63px;
+	    height: 42px;
+	}
+	.composition-photo-5 {
+	    top: 22.2rem;
+	    left: 5.8rem;
+	    width: 67px;
+	    height: 42px;
+	}
+	.composition-photo-6 {
+	    top: 24.2rem;
+	    left: 12.5rem;
+	    width: 63px;
+	    height: 48px;
+	}
+	.composition-photo-7 {
+	    top: 26.4rem;
+	    left: 7rem;
+	    width: 55px;
+	    height: 45px;
+	}
+	.composition-photo-8 {
+	    top: 29rem;
+	    left: 12.5rem;
+	    width: 85px;
+	    height: 50px;
+	}
+	.composition-photo-9 {
+	    top: 34rem;
+	    left: 12.5rem;
+	    width: 60px;
+	    height: 48px;
+	}
+	.composition-photo-10 {
+	    top: 12rem;
+	    left: 8.2rem;
+	    width: 46px;
+	    height: 35px;
+	}
+	.composition-photo-11 {
+	    top: 14rem;
+	    left: 12.5rem;
+	    width: 35px;
+	    height: 18px;
+	}
+	/*home page end*/
+
+	/*chamarajendra start*/
+	.adobe {
+	    height: 73rem;
+	}
+	.meet-animal {
+	    top: 18rem;
+	    left: 18rem;
+	}
+    .view_map-position{
+        left: 6rem;
+    }
+	.events-position {
+	    left: 8rem;
+	}
+    .buy_now-position{
+        left: 5rem;
+    }
+	.save-tickets {
+	    position: absolute;
+	    right: 11rem;
+	    top: 9rem;
+	}
+	.zoo-title-bg {
+	    width: 380px;
+	    height: 150px;
+	    position: relative;
+	    top: 24.5rem;
+	    margin-left: -9rem;
+	}
+	.left-bottom-text {
+	    position: absolute;
+	    top: 44rem;
+	    margin-left: 1rem;
+	}
+	.what-happ-bg {
+	    height: 55rem;
+	}
+	.what-happen-img {
+	    height: 430px;
+	}
+	.meet-animal-left-padd {
+	    padding-left: 1rem;
+	}
+	.button-right {
+	    right: 1rem;
+	}
+	.meet-top-mar {
+	    margin-top: 4rem;
+	}
+	/*chamarajendra end*/
+
+	/*beer start*/
+	.school-groups-image-padd {
+	    padding: 0px 0rem;
+	}
+	.school-groups-content {
+	    padding: 0 0.5rem;
+	    vertical-align: top;
+	}
+	.beer-third-bg-screen {
+    	margin-top: -14%;
+	}
+	.find-out-more {
+	    left: 6rem;
+	}
+	.program-para {
+	    padding: 0px 24.33%;
+    }
+
+    .program-para-volunteer{
+	    padding: 0px 24.33%;
+    }
+    
+	.publication-img {
+	    width: 100%;
+	    height: 315px;
+	}
+	.publication {
+	    height: 315px;
+	}
+	.screen4-bg {
+	    height: 46rem;
+	}
+	.publication-padd {
+	    padding: 3rem 7rem;
+	}
+	.publication-content {
+	    margin-top: 2rem;
+	}
+	.check-for-more-mar-top {
+	    margin-top: 2.5rem;
+	}
+	/*beer end*/
+
+	/*get involved start*/
+	.getinvolved-content {
+	    padding: 0.5rem;
+	    float: left;
+	}
+	/*get involved end*/
+
+    /*bannerghatta start*/
+    .bannerghatta{
+        height: 55rem;
+    }
+    .bannerghatta_landmark{
+        height: 73rem;
+    }
+    /*bannerghatta end*/
+
+    /*shimoga start*/
+    .shimoga{
+        height: 55rem;
+    }
+    .shimoga_landmark{
+        height: 73rem;
+    }
+    /*shimoga end*/
+    /*chitradurga start*/
+    .chitradurga{
+        height: 55rem;
+    }
+    .chitradurga_landmark{
+        height: 73rem;
+    }
+    /*chitradurga end*/
+    /*davanagere start*/
+    .davanagere{
+        height: 55rem;
+    }
+    .davanagere_landmark{
+        height: 73rem;
+    }
+    /*davanagere end*/
+    /*gulbarga start*/
+    .gulbarga{
+        height: 55rem;
+    }
+    .gulbarga_landmark{
+        height: 73rem;
+    }
+    /*gulbarga end*/
+    /*hampi start*/
+    .hampi{
+        height: 55rem;
+    }
+    .hampi_landmark{
+        height: 73rem;
+    }
+    /*hampi end*/
+    /*gadag start*/
+    .gadag{
+        height: 55rem;
+    }
+    .gadag_landmark{
+        height: 73rem;
+    }
+    /*gadag end*/
+    /*belagavi start*/
+    .belagavi{
+        height: 55rem;
+    }
+    .belagavi_landmark{
+        height: 73rem;
+    }
+    /*belagavi end*/
+
+    /*nagesh new*/
+    
+    .chamarajedra {
+        height: 55rem;
+    }
+    .adobe_container {
+        top: 47rem;
+    }
+    .about_the_zoo_container {
+        top: 120rem;
+    }
+    .about-the-zoo-content {
+        font-size: 13px;
+    }
+    .zoo-map-bg_container {
+        top: 195rem;
+    }
+    .what-happ-bg_container {
+        top: 255rem;
+    }
+    .beer-third-bg-screen {
+        height: 85rem;
+    }
+    .screen4-bg_container {
+        top: 186rem;
+    }
+    .zoo-map-padd {
+    padding: 17px 10rem 8rem 10rem;
+}
+
+}
+
+.formLabel{
+    color: #861111;
+}
+
+.cont_add{
+    font-size: 20px;
+    color: #861111;
+    padding: 27px;
+}
+
+.developmentDetails{
+    padding: 0px 30px 10px 30px;
+    line-height: 2.3;
+}
+
+.sideLabel{
+    font-size: 17px;
+    letter-spacing: normal;
+    color: #252525;
+    top: 19rem;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    margin-left: -9rem !important;
+}
+
+.white{
+    color: #ececec !important;
+}
+
+.shimogaPlaceName{
+    margin-left: -6rem !important;
+}
+
+.chitradurgaPlaceName{
+    margin-left: -5rem !important;
+}
+
+
+

@@ -1,0 +1,38 @@
+/* p::first-line{
+    background-color: red;
+}
+
+p::first-letter{
+    font-size: 60px;
+    background-color: aqua;
+    /* transparent*/
+/* } */
+h1::before{
+    content: "The ";
+}
+h1::after{
+    content: "😊😊 ";
+}
+
+p::selection{
+    /* background-color: red;
+    color: black; */
+
+    /* background-color: blue;
+    color: red; */
+    /* NO BG COLOR FOR BELOW PROPERTY */
+ 
+}
+
+p {
+    user-select: none;
+
+}
+
+/* li::marker{
+    content: 😊;
+} */
+
+li:nth-child(odd)::marker{
+    content: '😊'
+}

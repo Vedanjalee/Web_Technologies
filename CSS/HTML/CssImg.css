@@ -1,0 +1,29 @@
+*{
+    background-color: #a0b8c2;
+}
+img{
+    width: 200px;
+    height: 300px;
+    display: none;
+}
+
+tr:nth-child(even) input.name-checkbox:checked+label::before{
+    content: "Mr. ";
+}
+
+tr:nth-child(odd) input.name-checkbox:checked+label::before{
+    content: "Miss. ";
+}
+
+input.image-checkbox:checked + img{
+  display: inline;
+}
+
+input.email-checkbox:checked + label::after{
+  content: "@gmail.com";
+}
+  
+
+td{
+    background-color: #836b8e;
+}
